@@ -1,0 +1,225 @@
+{
+	"info": {
+		"_postman_id": "bde7602c-3b8e-442e-8606-71f11a1df60d",
+		"name": "LangTranslator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19231825"
+	},
+	"item": [
+		{
+			"name": "Get API for translations",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": [],
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:2000/api/translation?lang=hi&lang=mr",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"api",
+						"translation"
+					],
+					"query": [
+						{
+							"key": "lang",
+							"value": "hi"
+						},
+						{
+							"key": "lang",
+							"value": "mr"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get API for translations",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": [],
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:2000/api/translation?lang=hi&lang=mr",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2000",
+							"path": [
+								"api",
+								"translation"
+							],
+							"query": [
+								{
+									"key": "lang",
+									"value": "hi"
+								},
+								{
+									"key": "lang",
+									"value": "mr"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "22309"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5725-Kdr/PneczW5ZXL79WveITn79vKA\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 14 Apr 2023 09:24:02 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"643440e73d80c665a1cf97ab\",\n        \"farmerId\": \"643440e03d80c665a1cf97a3\",\n        \"language\": \"hi\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवली\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643440e73d80c665a1cf97ad\",\n        \"farmerId\": \"643440e03d80c665a1cf97a4\",\n        \"language\": \"hi\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगाना\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"यह अंधेरा है\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643440e73d80c665a1cf97af\",\n        \"farmerId\": \"643440e03d80c665a1cf97a3\",\n        \"language\": \"mr\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवळी\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643440e73d80c665a1cf97b1\",\n        \"farmerId\": \"643440e03d80c665a1cf97a4\",\n        \"language\": \"mr\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगणा\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"अंधार आहे\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643440e83d80c665a1cf97bb\",\n        \"farmerId\": \"643440e03d80c665a1cf97a9\",\n        \"language\": \"hi\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"गिनती करना\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643440e83d80c665a1cf97bd\",\n        \"farmerId\": \"643440e03d80c665a1cf97a9\",\n        \"language\": \"mr\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"मोजा\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643440e83d80c665a1cf97bf\",\n        \"farmerId\": \"643440e03d80c665a1cf97a5\",\n        \"language\": \"hi\",\n        \"name\": \"Aanandan\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"Amravati\",\n        \"village\": \"Amravati\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643440e83d80c665a1cf97c3\",\n        \"farmerId\": \"643440e03d80c665a1cf97a5\",\n        \"language\": \"mr\",\n        \"name\": \"आनंदन\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"अमरावती\",\n        \"village\": \"अमरावती\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6435049d6c48672fa003995f\",\n        \"farmerId\": \"6435049a6c48672fa0039957\",\n        \"language\": \"hi\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवली\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6435049d6c48672fa0039961\",\n        \"farmerId\": \"6435049a6c48672fa0039958\",\n        \"language\": \"hi\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगाना\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"यह अंधेरा है\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6435049d6c48672fa0039963\",\n        \"farmerId\": \"6435049a6c48672fa0039957\",\n        \"language\": \"mr\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवळी\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6435049e6c48672fa0039965\",\n        \"farmerId\": \"6435049a6c48672fa0039958\",\n        \"language\": \"mr\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगणा\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"अंधार आहे\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6435049e6c48672fa003996f\",\n        \"farmerId\": \"6435049a6c48672fa003995d\",\n        \"language\": \"hi\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"गिनती करना\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6435049e6c48672fa0039971\",\n        \"farmerId\": \"6435049a6c48672fa003995d\",\n        \"language\": \"mr\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"मोजा\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6435049f6c48672fa0039975\",\n        \"farmerId\": \"6435049a6c48672fa0039959\",\n        \"language\": \"hi\",\n        \"name\": \"Aanandan\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"Amravati\",\n        \"village\": \"Amravati\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6435049f6c48672fa0039979\",\n        \"farmerId\": \"6435049a6c48672fa0039959\",\n        \"language\": \"mr\",\n        \"name\": \"आनंदन\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"अमरावती\",\n        \"village\": \"अमरावती\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643506721cb8b8bd5c3ae63d\",\n        \"farmerId\": \"643506701cb8b8bd5c3ae635\",\n        \"language\": \"hi\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवली\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643506721cb8b8bd5c3ae63f\",\n        \"farmerId\": \"643506701cb8b8bd5c3ae635\",\n        \"language\": \"mr\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवळी\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643506731cb8b8bd5c3ae643\",\n        \"farmerId\": \"643506701cb8b8bd5c3ae636\",\n        \"language\": \"hi\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगाना\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"यह अंधेरा है\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643506731cb8b8bd5c3ae647\",\n        \"farmerId\": \"643506701cb8b8bd5c3ae636\",\n        \"language\": \"mr\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगणा\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"अंधार आहे\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643506731cb8b8bd5c3ae64b\",\n        \"farmerId\": \"643506701cb8b8bd5c3ae63b\",\n        \"language\": \"hi\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"गिनती करना\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643506741cb8b8bd5c3ae64f\",\n        \"farmerId\": \"643506701cb8b8bd5c3ae63b\",\n        \"language\": \"mr\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"मोजा\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643506741cb8b8bd5c3ae653\",\n        \"farmerId\": \"643506701cb8b8bd5c3ae637\",\n        \"language\": \"hi\",\n        \"name\": \"Aanandan\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"Amravati\",\n        \"village\": \"Amravati\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643506741cb8b8bd5c3ae657\",\n        \"farmerId\": \"643506701cb8b8bd5c3ae637\",\n        \"language\": \"mr\",\n        \"name\": \"आनंदन\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"अमरावती\",\n        \"village\": \"अमरावती\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643513159a4a0aa86934e7f9\",\n        \"farmerId\": \"643513139a4a0aa86934e7f2\",\n        \"language\": \"hi\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगाना\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"यह अंधेरा है\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643513169a4a0aa86934e7fb\",\n        \"farmerId\": \"643513139a4a0aa86934e7f1\",\n        \"language\": \"hi\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवली\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643513169a4a0aa86934e7fd\",\n        \"farmerId\": \"643513139a4a0aa86934e7f2\",\n        \"language\": \"mr\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगणा\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"अंधार आहे\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643513169a4a0aa86934e7ff\",\n        \"farmerId\": \"643513139a4a0aa86934e7f1\",\n        \"language\": \"mr\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवळी\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643513169a4a0aa86934e807\",\n        \"farmerId\": \"643513139a4a0aa86934e7f7\",\n        \"language\": \"hi\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"गिनती करना\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643513169a4a0aa86934e80b\",\n        \"farmerId\": \"643513139a4a0aa86934e7f7\",\n        \"language\": \"mr\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"मोजा\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643513179a4a0aa86934e80d\",\n        \"farmerId\": \"643513139a4a0aa86934e7f3\",\n        \"language\": \"hi\",\n        \"name\": \"Aanandan\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"Amravati\",\n        \"village\": \"Amravati\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643513179a4a0aa86934e811\",\n        \"farmerId\": \"643513139a4a0aa86934e7f3\",\n        \"language\": \"mr\",\n        \"name\": \"आनंदन\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"अमरावती\",\n        \"village\": \"अमरावती\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6435386f7399cfb3f01bbea6\",\n        \"farmerId\": \"6435386c7399cfb3f01bbe9f\",\n        \"language\": \"hi\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगाना\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"यह अंधेरा है\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6435386f7399cfb3f01bbea8\",\n        \"farmerId\": \"6435386c7399cfb3f01bbe9e\",\n        \"language\": \"hi\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवली\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6435386f7399cfb3f01bbeaa\",\n        \"farmerId\": \"6435386c7399cfb3f01bbe9f\",\n        \"language\": \"mr\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगणा\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"अंधार आहे\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6435386f7399cfb3f01bbeac\",\n        \"farmerId\": \"6435386c7399cfb3f01bbe9e\",\n        \"language\": \"mr\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवळी\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643538707399cfb3f01bbeb6\",\n        \"farmerId\": \"6435386c7399cfb3f01bbea4\",\n        \"language\": \"hi\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"गिनती करना\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643538707399cfb3f01bbeb8\",\n        \"farmerId\": \"6435386c7399cfb3f01bbea0\",\n        \"language\": \"hi\",\n        \"name\": \"Aanandan\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"Amravati\",\n        \"village\": \"Amravati\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643538707399cfb3f01bbeba\",\n        \"farmerId\": \"6435386c7399cfb3f01bbea4\",\n        \"language\": \"mr\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"मोजा\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643538707399cfb3f01bbebc\",\n        \"farmerId\": \"6435386c7399cfb3f01bbea0\",\n        \"language\": \"mr\",\n        \"name\": \"आनंदन\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"अमरावती\",\n        \"village\": \"अमरावती\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643543848dd8d8c31facf26c\",\n        \"farmerId\": \"643543818dd8d8c31facf262\",\n        \"language\": \"hi\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवली\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643543848dd8d8c31facf26a\",\n        \"farmerId\": \"643543818dd8d8c31facf263\",\n        \"language\": \"hi\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगाना\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"यह अंधेरा है\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643543848dd8d8c31facf26e\",\n        \"farmerId\": \"643543818dd8d8c31facf262\",\n        \"language\": \"mr\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवळी\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643543848dd8d8c31facf270\",\n        \"farmerId\": \"643543818dd8d8c31facf263\",\n        \"language\": \"mr\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगणा\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"अंधार आहे\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643543858dd8d8c31facf27a\",\n        \"farmerId\": \"643543818dd8d8c31facf268\",\n        \"language\": \"hi\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"गिनती करना\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643543858dd8d8c31facf27c\",\n        \"farmerId\": \"643543818dd8d8c31facf268\",\n        \"language\": \"mr\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"मोजा\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643543858dd8d8c31facf280\",\n        \"farmerId\": \"643543818dd8d8c31facf264\",\n        \"language\": \"hi\",\n        \"name\": \"Aanandan\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"Amravati\",\n        \"village\": \"Amravati\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643543868dd8d8c31facf284\",\n        \"farmerId\": \"643543818dd8d8c31facf264\",\n        \"language\": \"mr\",\n        \"name\": \"आनंदन\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"अमरावती\",\n        \"village\": \"अमरावती\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643828f04936cffa01bab4ba\",\n        \"farmerId\": \"643828ec4936cffa01bab4b2\",\n        \"language\": \"hi\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवली\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643828f04936cffa01bab4bc\",\n        \"farmerId\": \"643828ec4936cffa01bab4b3\",\n        \"language\": \"hi\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगाना\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"यह अंधेरा है\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643828f04936cffa01bab4be\",\n        \"farmerId\": \"643828ec4936cffa01bab4b2\",\n        \"language\": \"mr\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवळी\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643828f04936cffa01bab4c0\",\n        \"farmerId\": \"643828ec4936cffa01bab4b3\",\n        \"language\": \"mr\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगणा\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"अंधार आहे\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643828f14936cffa01bab4ca\",\n        \"farmerId\": \"643828ec4936cffa01bab4b8\",\n        \"language\": \"hi\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"गिनती करना\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643828f14936cffa01bab4cc\",\n        \"farmerId\": \"643828ec4936cffa01bab4b8\",\n        \"language\": \"mr\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"मोजा\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643828f14936cffa01bab4ce\",\n        \"farmerId\": \"643828ec4936cffa01bab4b4\",\n        \"language\": \"hi\",\n        \"name\": \"Aanandan\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"Amravati\",\n        \"village\": \"Amravati\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643828f14936cffa01bab4d2\",\n        \"farmerId\": \"643828ec4936cffa01bab4b4\",\n        \"language\": \"mr\",\n        \"name\": \"आनंदन\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"अमरावती\",\n        \"village\": \"अमरावती\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382de0bab017cc63fb2256\",\n        \"farmerId\": \"64382dddbab017cc63fb224f\",\n        \"language\": \"hi\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगाना\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"यह अंधेरा है\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382de0bab017cc63fb2258\",\n        \"farmerId\": \"64382dddbab017cc63fb224f\",\n        \"language\": \"mr\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगणा\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"अंधार आहे\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382de1bab017cc63fb225a\",\n        \"farmerId\": \"64382dddbab017cc63fb224e\",\n        \"language\": \"hi\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवली\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382de1bab017cc63fb225e\",\n        \"farmerId\": \"64382dddbab017cc63fb224e\",\n        \"language\": \"mr\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवळी\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382de2bab017cc63fb2266\",\n        \"farmerId\": \"64382dddbab017cc63fb2250\",\n        \"language\": \"hi\",\n        \"name\": \"Aanandan\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"Amravati\",\n        \"village\": \"Amravati\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382de2bab017cc63fb2268\",\n        \"farmerId\": \"64382dddbab017cc63fb2254\",\n        \"language\": \"hi\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"गिनती करना\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382de2bab017cc63fb226a\",\n        \"farmerId\": \"64382dddbab017cc63fb2250\",\n        \"language\": \"mr\",\n        \"name\": \"आनंदन\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"अमरावती\",\n        \"village\": \"अमरावती\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382de2bab017cc63fb226c\",\n        \"farmerId\": \"64382dddbab017cc63fb2254\",\n        \"language\": \"mr\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"मोजा\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382f06a8c5c7ed28f87801\",\n        \"farmerId\": \"64382f03a8c5c7ed28f877fa\",\n        \"language\": \"hi\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगाना\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"यह अंधेरा है\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382f06a8c5c7ed28f87803\",\n        \"farmerId\": \"64382f03a8c5c7ed28f877f9\",\n        \"language\": \"hi\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवली\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382f07a8c5c7ed28f87805\",\n        \"farmerId\": \"64382f03a8c5c7ed28f877fa\",\n        \"language\": \"mr\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगणा\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"अंधार आहे\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382f07a8c5c7ed28f87807\",\n        \"farmerId\": \"64382f03a8c5c7ed28f877f9\",\n        \"language\": \"mr\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवळी\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382f08a8c5c7ed28f87811\",\n        \"farmerId\": \"64382f03a8c5c7ed28f877ff\",\n        \"language\": \"hi\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"गिनती करना\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382f08a8c5c7ed28f87813\",\n        \"farmerId\": \"64382f03a8c5c7ed28f877fb\",\n        \"language\": \"hi\",\n        \"name\": \"Aanandan\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"Amravati\",\n        \"village\": \"Amravati\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382f08a8c5c7ed28f87815\",\n        \"farmerId\": \"64382f03a8c5c7ed28f877ff\",\n        \"language\": \"mr\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"मोजा\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64382f08a8c5c7ed28f87817\",\n        \"farmerId\": \"64382f03a8c5c7ed28f877fb\",\n        \"language\": \"mr\",\n        \"name\": \"आनंदन\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"अमरावती\",\n        \"village\": \"अमरावती\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64383e82a448c8b02ff67c7f\",\n        \"farmerId\": \"64383e7ea448c8b02ff67c77\",\n        \"language\": \"hi\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवली\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64383e82a448c8b02ff67c81\",\n        \"farmerId\": \"64383e7ea448c8b02ff67c78\",\n        \"language\": \"hi\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगाना\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"यह अंधेरा है\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64383e82a448c8b02ff67c83\",\n        \"farmerId\": \"64383e7ea448c8b02ff67c77\",\n        \"language\": \"mr\",\n        \"name\": \"पांडे\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवळी\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64383e82a448c8b02ff67c85\",\n        \"farmerId\": \"64383e7ea448c8b02ff67c78\",\n        \"language\": \"mr\",\n        \"name\": \"कार्तिक\",\n        \"state\": \"तेलंगणा\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"अंधार आहे\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64383e83a448c8b02ff67c8f\",\n        \"farmerId\": \"64383e7ea448c8b02ff67c7d\",\n        \"language\": \"hi\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"गिनती करना\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64383e83a448c8b02ff67c91\",\n        \"farmerId\": \"64383e7ea448c8b02ff67c79\",\n        \"language\": \"hi\",\n        \"name\": \"Aanandan\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"Amravati\",\n        \"village\": \"Amravati\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64383e84a448c8b02ff67c93\",\n        \"farmerId\": \"64383e7ea448c8b02ff67c7d\",\n        \"language\": \"mr\",\n        \"name\": \"गुप्ता\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"मोजा\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64383e84a448c8b02ff67c95\",\n        \"farmerId\": \"64383e7ea448c8b02ff67c79\",\n        \"language\": \"mr\",\n        \"name\": \"आनंदन\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"अमरावती\",\n        \"village\": \"अमरावती\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6438433e178c34352c9c3aaf\",\n        \"farmerId\": \"6438433b178c34352c9c3aa8\",\n        \"language\": \"hi\",\n        \"name\": \"कार्तिक\",\n        \"phoneNo\": \"888888888\",\n        \"state\": \"तेलंगाना\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"यह अंधेरा है\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6438433f178c34352c9c3ab3\",\n        \"farmerId\": \"6438433b178c34352c9c3aa7\",\n        \"language\": \"hi\",\n        \"name\": \"पांडे\",\n        \"phoneNo\": \"999999999\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवली\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6438433f178c34352c9c3ab1\",\n        \"farmerId\": \"6438433b178c34352c9c3aa8\",\n        \"language\": \"mr\",\n        \"name\": \"कार्तिक\",\n        \"phoneNo\": \"888888888\",\n        \"state\": \"तेलंगणा\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"अंधार आहे\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6438433f178c34352c9c3ab5\",\n        \"farmerId\": \"6438433b178c34352c9c3aa7\",\n        \"language\": \"mr\",\n        \"name\": \"पांडे\",\n        \"phoneNo\": \"९९९९९९९९९\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवळी\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64384340178c34352c9c3abf\",\n        \"farmerId\": \"6438433b178c34352c9c3aad\",\n        \"language\": \"hi\",\n        \"name\": \"गुप्ता\",\n        \"phoneNo\": \"7777777777\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"गिनती करना\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64384340178c34352c9c3ac1\",\n        \"farmerId\": \"6438433b178c34352c9c3aad\",\n        \"language\": \"mr\",\n        \"name\": \"गुप्ता\",\n        \"phoneNo\": \"७७७७७७७७७७७\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"मोजा\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64384340178c34352c9c3ac3\",\n        \"farmerId\": \"6438433b178c34352c9c3aa9\",\n        \"language\": \"hi\",\n        \"name\": \"Aanandan\",\n        \"phoneNo\": \"666666666\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"Amravati\",\n        \"village\": \"Amravati\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64384340178c34352c9c3ac7\",\n        \"farmerId\": \"6438433b178c34352c9c3aa9\",\n        \"language\": \"mr\",\n        \"name\": \"आनंदन\",\n        \"phoneNo\": \"६६६६६६६६६\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"अमरावती\",\n        \"village\": \"अमरावती\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643854d3d40eaee180e1b557\",\n        \"farmerId\": \"643854c9d40eaee180e1b550\",\n        \"language\": \"hi\",\n        \"name\": \"कार्तिक\",\n        \"phoneNo\": \"888888888\",\n        \"state\": \"तेलंगाना\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"यह अंधेरा है\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643854d3d40eaee180e1b559\",\n        \"farmerId\": \"643854c9d40eaee180e1b54f\",\n        \"language\": \"hi\",\n        \"name\": \"पांडे\",\n        \"phoneNo\": \"999999999\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवली\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643854d3d40eaee180e1b55b\",\n        \"farmerId\": \"643854c9d40eaee180e1b550\",\n        \"language\": \"mr\",\n        \"name\": \"कार्तिक\",\n        \"phoneNo\": \"888888888\",\n        \"state\": \"तेलंगणा\",\n        \"district\": \"रंगारेड्डी\",\n        \"village\": \"अंधार आहे\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643854d3d40eaee180e1b55d\",\n        \"farmerId\": \"643854c9d40eaee180e1b54f\",\n        \"language\": \"mr\",\n        \"name\": \"पांडे\",\n        \"phoneNo\": \"999999999\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"देवळी\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643854d4d40eaee180e1b569\",\n        \"farmerId\": \"643854c9d40eaee180e1b551\",\n        \"language\": \"hi\",\n        \"name\": \"Aanandan\",\n        \"phoneNo\": \"666666666\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"Amravati\",\n        \"village\": \"Amravati\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643854d4d40eaee180e1b567\",\n        \"farmerId\": \"643854c9d40eaee180e1b555\",\n        \"language\": \"hi\",\n        \"name\": \"गुप्ता\",\n        \"phoneNo\": \"7777777777\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"गिनती करना\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643854d4d40eaee180e1b56b\",\n        \"farmerId\": \"643854c9d40eaee180e1b551\",\n        \"language\": \"mr\",\n        \"name\": \"आनंदन\",\n        \"phoneNo\": \"६६६६६६६६६\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"अमरावती\",\n        \"village\": \"अमरावती\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"643854d4d40eaee180e1b56d\",\n        \"farmerId\": \"643854c9d40eaee180e1b555\",\n        \"language\": \"mr\",\n        \"name\": \"गुप्ता\",\n        \"phoneNo\": \"७७७७७७७७७७७\",\n        \"state\": \"महाराष्ट्र\",\n        \"district\": \"वर्धा\",\n        \"village\": \"मोजा\",\n        \"__v\": 0\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Post API for saving farmer data and translation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/cpareek/Desktop/lang-translator/csvFile.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:2000/api/upload-csv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"api",
+						"upload-csv"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Post API for saving farmer data and translation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/cpareek/Desktop/lang-translator/csvFile.csv"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:2000/api/upload-csv",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2000",
+							"path": [
+								"api",
+								"upload-csv"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 14 Apr 2023 09:48:15 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[]"
+				}
+			]
+		}
+	]
+}
